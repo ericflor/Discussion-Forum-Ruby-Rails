@@ -43,6 +43,7 @@ gem 'cancancan', '~> 2.3'
 gem 'friendly_id', '~> 5.2', '>= 5.2.5'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 
 
 # Reduces boot times through caching; required in config/boot.rb
