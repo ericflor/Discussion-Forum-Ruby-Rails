@@ -10,10 +10,10 @@
   <br/>
 
   <% if has_role?(:admin) %>
-  <%= link_to 'New Channel', new_channel_path, class:'button is-success' %>
+  <%= link_to 'New Channel', new_channel_path, class:'button is-primary' %>
   <br />
   <br />
-  <%= link_to 'Channels', channel_path, class: 'button is-primary' %>
+  <%= link_to 'Channels', channels_path, class: 'button is-primary' %>
   <% end %>
 
 </div>
