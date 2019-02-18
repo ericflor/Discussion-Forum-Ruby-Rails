@@ -21,8 +21,8 @@
       <td><%= link_to channel.channel, channel %></td>
       <td>
         <div class="buttons is-right">
-          <%= link_to 'View Channel', channel, class:'button' %>
-          <%= link_to 'Edit Channel', edit_channel_path(channel), class:'button' %>
+          <%= link_to 'View Channel', channel, class:'button is-info' %>
+          <%= link_to 'Edit Channel', edit_channel_path(channel), class:'button is-primary' %>
           <%= link_to 'Delete', channel, class:'button is-danger', method: :delete, data: { confirm: "Are you sure you want to delete this channel? " } %>
         </div>
       </td>
